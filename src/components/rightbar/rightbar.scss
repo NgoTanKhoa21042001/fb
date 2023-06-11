@@ -1,0 +1,11 @@
+.rightbar {
+  flex: 3.5;
+}
+
+// responsive
+
+@media only screen and (max-width: 768px) {
+  .rightbar {
+    display: none;
+  }
+}
