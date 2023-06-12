@@ -2,7 +2,7 @@ import "./App.scss";
 import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
 import EditProfile from "./pages/editProfile/EditProfile";
-import Home from "./pages/Home/home";
+// import Home from "./pages/Home/home";
 import Profile from "./pages/profile/Profile";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./styles/dark.scss";
@@ -19,7 +19,7 @@ function App() {
             <Route path="/">
               <Route path="login" element={<Login />} />
               <Route path="register" element={<Register />} />
-              <Route index element={<Home />} />
+              {/* <Route index element={<Home />} /> */}
               <Route path="profile">
                 <Route path=":userId" element={<Profile />} />
                 <Route path=":userId/edit" element={<EditProfile />} />

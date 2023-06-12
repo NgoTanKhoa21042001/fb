@@ -16,6 +16,7 @@ const Register = () => {
   const handleRegister = (e) => {
     e.preventDefault();
     navigate("/");
+    // em oi
   };
 
   return (

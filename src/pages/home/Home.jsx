@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div>
       <Helmet>
-        <title>Homepage</title>
+        <title>Homepage .</title>
       </Helmet>
       <Navbar />
       <div className="homeContainer">
