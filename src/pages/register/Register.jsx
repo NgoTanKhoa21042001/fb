@@ -12,44 +12,7 @@ const Register = () => {
   const [error, setError] = useState(false);
   const navigate = useNavigate();
   // const handleRegister = async (e) => {
-  //   e.preventDefault();
-  //   const displayName = e.target[0].value;
-  //   const email = e.target[1].value;
-  //   const password = e.target[2].value;
-  //   try {
-  //     const res = await createUserWithEmailAndPassword(auth, email, password);
 
-  //     const storageRef = ref(storage, "usersImages/" + displayName);
-
-  //     const uploadTask = uploadBytesResumable(storageRef, image);
-
-  //     uploadTask.on(
-  //       (error) => {
-  //         setError(true);
-  //       },
-  //       () => {
-  //         getDownloadURL(uploadTask.snapshot.ref).then(async (downloadURL) => {
-  //           await updateProfile(res.user, {
-  //             displayName,
-  //             photoURL: downloadURL,
-  //           });
-
-  //           await setDoc(doc(db, "users", res.user.uid), {
-  //             uid: res.user.uid,
-  //             displayName,
-  //             email,
-  //             photoURL: downloadURL,
-  //           });
-
-  //           await setDoc(doc(db, "usersPosts", res.user.uid), { messages: [] });
-  //           // console.log(res.user);
-  //         });
-  //       }
-  //     );
-  //   } catch (error) {
-  //     setError(true);
-  //   }
-  // };
   const handleRegister = (e) => {
     e.preventDefault();
     navigate("/");
