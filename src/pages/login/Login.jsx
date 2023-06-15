@@ -1,5 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
+import { Link } from "react-router-dom";
 import "./login.scss";
 
 const Login = () => {
@@ -31,12 +32,16 @@ const Login = () => {
                   required
                 />
 
-                <button type="submit" className="loginButton">
-                  Sign In
-                </button>
-                <button className="loginRegisterButton">
-                  Create a New Account
-                </button>
+                <Link to="/">
+                  <button type="submit" className="loginButton">
+                    Sign In
+                  </button>
+                </Link>
+                <Link to="/register">
+                  <button className="loginRegisterButton">
+                    Create a New Account
+                  </button>
+                </Link>
               </form>
             </div>
           </div>

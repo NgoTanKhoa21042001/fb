@@ -32,7 +32,7 @@ const Sidebar = () => {
         <span onClick={() => dispatch({ type: "TOGGLE" })}>
           <Menulink Icon={<DarkModeOutlinedIcon />} text="Theme" />
         </span>
-        <Link to="/register">
+        <Link to="/login">
           <Menulink Icon={<LogoutOutlinedIcon />} text="Logout" />
         </Link>
         <button className="sidebarButton">Show More</button>
