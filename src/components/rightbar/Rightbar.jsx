@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import ProfileRightbar from "../ProfileRightbar/ProfileRightBar";
-import RightbarHome from "../rightbarHome/rightbarHome";
+import RightbarHome from "../rightbarHome/RightbarHome";
 
 import "./rightbar.scss";
 // eslint-disable-next-line react/prop-types
