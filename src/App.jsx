@@ -2,7 +2,7 @@ import "./App.scss";
 import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
 import EditProfile from "./pages/editProfile/EditProfile";
-import Home from "./pages/Home/home";
+import Home from "./pages/home/Home";
 import Profile from "./pages/profile/Profile";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./styles/dark.scss";
