@@ -4,6 +4,7 @@ const DarkModeReducer = (state, action) => {
       return {
         darkMode: !state.darkMode,
       };
+      // hi
     }
     default:
       return state;
